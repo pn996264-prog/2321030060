@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .khoi-1{
+            background-color: red;
+        }
+        .khoi-2{
+            background-color: green;
+            /* margin truyền 1 giá trị thì sẽ cách xung quanh = giá trị đó */
+            /* 2 giá trị: giá trị đầu (trên dưới), giá trị thứ hai (trái phải) */
+            /* 4 giá trị: thứ tự: trên, phải, dưới, trái */
+            margin: 10px 50px 100px 200px;
+        }
+        .khoi-3{
+            background-color: yellow;
+            padding: 10px 50px 100px 200px;
+        }
+    </style>
+    <style>
+        h2{
+            color: pink;
+            background-color: black;
+        }
+        h3{
+            color: white;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cách 1: Inline style -->
+    <h1 style="color: blue; background-color: orange;">Bài STYLE</h1>
+
+    <!-- Cách 2: Internal style -->
+    <h2>Cách 2: Internal style</h2>
+
+    <!-- Cách 3: External style -->
+    <h3>Cách 3: External style</h3>
+
+    <!-- Cách 4: trỏ đến các thuộc tính: id or class -->
+    <!-- Nếu là id sử dụng dấu # + tên id -->
+    <!-- Ví dụ ở dưới: #tieude-1 -->
+     <h4 id="tieude-1">Web 2</h4>
+    <!-- Nếu là class sử dụng dấu . + tên class -->
+    <!-- Ví dụ ở dưới: .tieude-2 -->
+     <h5 class="tieude-2">Web 3</h5>
+
+    <!-- element.class: kết hợp thẻ + tên class -->
+    <div>Web 4</div> <!-- KHÔNG HIỆN MÀU VÀ NỀN VÌ THIẾU CLASS="web4" -->
+    <div class="web4">Web 4</div><br>
+
+    <!-- Margin: khoảng cách bên ngoài của thẻ -->
+    <!-- padding: khoảng cách bên trong của thẻ -->
+    <!-- display: cách hiển thị của thẻ -->
+    <div class="khoi-1">Khoi 1</div>
+    <div class="khoi-2">Khoi 2</div>    
+    <div class="khoi-3">Khoi 3</div>       
+
+</body>
+</html>
