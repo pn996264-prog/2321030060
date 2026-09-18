@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    background-color: red;
+}
+
+.danh-sach-muc{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.banner{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    width:50%;
+    height: 70vh;
+    margin: 20px auto;
+}
