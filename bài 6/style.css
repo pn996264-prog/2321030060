@@ -90,5 +90,18 @@ header{
         width: 150px;
         height: 150px;
         border-radius: 50%;
-    };
+    }
+}
+
+footer{
+    background-color: aqua;
+    padding: 40px;
+}
+
+.chan-trang{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    max-width: 900px;
+    margin: 0 auto;
 }

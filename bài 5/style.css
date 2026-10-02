@@ -1,17 +1,200 @@
-h3{
+.menu{
+     background-color: #2fa4e7;
+    }
+
+.danh-sach-danh-muc{
+    /* bỏ dấu chấm của list */
+     list-style: none;       
+    margin: 0px;
+    display: flex;        
+     padding: 10px;
+    /* set các đối tượng bọc ở trong khối tự động cách nhau một khoảng = giá trị truyền vào (gap) */
+    gap: 15px;       
+}
+
+ .muc{
     color: white;
-    background-color: green;
+    padding: 15px
+    /* font-weight: bold; */
 }
 
-#tieude-1{
-    background-color: green;
+a{
+    color: white;
+    /* để bỏ gạch chân cửa thẻ a dùng text -decoration */
+    text-decoration: none;
 }
 
-.tieude-2{
-    background-color: blue;
+main{
+        display: flex;
 }
 
-div.web4{
-    color: yellow;
-    background-color: red;
+.khoi-trai{
+    width: 20%;
+    height: 90vh;
+    /* để vẽ viền dùng border: border sẽ có 3 tham số(độ dày-loại đường viền-màu sắc) */
+    border-right: 2px solid #2fa4e7;
 }
+
+p{
+    margin: 0px;
+}
+
+input{
+    width: 100%;
+    padding: 5px 0;
+    /* border-radius để bo tròn các góc  */
+    border-radius: 5px;
+    border: 1px solid #dedede;
+}
+
+.khoi-dang-nhap{
+    /* background-color: red */
+    width: 90%;
+    height: 300px;
+    /* nếu margin để auto sẽ căn đối tượng vào giữa */
+    margin: 10px auto;
+}
+
+.quen-mk{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lien-ket-quen-mk{
+    color: #2fa4e7;
+    text-decoration: none;
+}
+
+.thong-tin{
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100%;
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    color: white;
+}
+
+.dang-nhap{
+    background-color: #2fa4e7;
+}
+
+.dang-nhap-365{
+    background-color: #0078D4;
+}
+
+.khoi-trang-chu{
+    color: #2fa4e7;
+    border-bottom: 1px solid #2fa4e7;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    background-color: #c7e8fb;
+}
+
+.khoi-khao-sat{
+    color: #2fa4e7;
+    border-bottom: 1px solid #2fa4e7;
+    list-style: none;
+    padding: 10px 10px 10px 10px ;
+}
+
+.khoi-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.khoi-truong{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10;
+}
+
+.khoi-phai{
+    width: 80%;
+    height: 90vh;
+}
+
+.tin{
+    width: 95%;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+}
+
+.tin-tren{
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid #2fa4e7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h3{
+    margin: 0px;
+}
+
+.danh-sach-tin{
+    width:95%;
+    margin:auto;
+    padding:10px;
+    display:flex;
+}
+
+.bai-viet{
+    width:25%;
+    margin-right:20px;
+}
+
+.bai-viet-khoi-anh{
+    width:100%;
+}
+
+.bai-viet-thoi-gian{
+    display:flex;
+    justify-content:flex-end;
+}
+
+img{
+    width:100%;
+    height:20vh;
+    border-radius:10px;
+}
+
+.bai-viet-1{
+    list-style: none;
+}
+
+.ngay{
+    color:grey;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.xem-tiep{
+    color: #2fa4e7;
+    text-decoration: none;
+}
+
+.ma-qr{
+    display: flex;
+    justify-content: space-between;
+    align-items: 500px;
+    gap: 600px;
+}
+
+.ma1{
+    width: 150px;
+}
+
+.ma2{
+    width:150px;
+}
+
+form {
+    width: 90%;
+    }
