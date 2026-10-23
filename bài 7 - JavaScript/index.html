@@ -311,19 +311,32 @@
             document.writeln("Xin Chào " + danhSachSinhVien[i])
         }
 
-        var danhSachSinhVien = ["Phuong", "Quynh", "Mai", "Thuy", "Ha"]
+        var danhSachSinhVien = ["Phuong", "Quynh", "Mai", "Thuy", "Ha"];
+        document.writeln("<br> Xin chào" + danhSachSinhVien[0]);
         for(var i = 0; i < danhSachSinhVien.length; i++){
-            if (danhSachSinhVien[i] ==){
-                document.writeln("Xin Chào Phuong" +"<br>")
+            if (danhSachSinhVien[0] == "Phuong" || danhSachSinhVien[2] == "Mai"){
+                document.writeln("Xin Chào" + danhSachSinhVien[0] +"<br>")
             }
-            else if (danhSachSinhVien[2]){
-                document.writeln("Xin Chào Mai" + "<br>")
-            }
-            else{
-                document.writeln("không hợp lệ")
-         }
         }
 
+
+
+        // //popup boxers
+        // alert("Xin chào!");
+
+        // //confirm
+        // var r = confirm("Press a button")
+        // if (r == true){
+        //     document.write("You pressed OK!")
+        // }
+        // else{
+        //     document.write("You pressed Cancel!")
+        // }
+
+
+        //prompt box
+        r = prompt("Nhập vào họ tên", "nhập tên vào đây!");
+        document.write(r)
     </script>
 
     <!-- external JS -->
