@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Đầu trang -->
+    <header>
+        <!-- Danh mục -->
+        <nav class="danh-muc">
+            <ul class="danh-sach-muc">
+                <img class="logo" src="../ảnh/logoNF.svg" alt="">
+                <li class="muc dang-chon"><a class="lien-ket-muc dang-chon" href="#"><font face="arial">Trang chủ</font></a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#"><font face="arial">Nhân vật</font></a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#"><font face="arial">Series</font></a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#"><font face="arial">Phim</font></a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#"><font face="arial">Mới & Phổ biến</font></a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#"><font face="arial">Netflix của tôi</font></a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#"><font face="arial">Duyệt tìm theo ngôn ngữ</font></a></li>
+            </ul>
+            <div></div>
+        </nav>
+        <div class="chuc-nang">
+            <img class="avata" src="../ảnh/avt.jpg" alt="">
+        </div>
+    </header>
+    <!-- Nội dung chính trang -->
+    <main>
+        <div class="banner">
+            <iframe class="banner-img" src="https://www.youtube.com/embed/nDpHA4nms-A?si=QteH0DENZbNl5qLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        </div>
+        <div class="the-loai">
+            <div class="ten-the-loai">
+                <h3>Có thể bạn sẽ mê các tác phẩm này</h3>
+            </div>
+            <div class="danh-sach-phim">
+                <div onclick="chonPhim(1)" class="phim">
+                    <img class="anh-bai" src="1.avif" alt="">
+                </div>
+                <div onclick="chonPhim(2)" class="phim">
+                    <img class="anh-bai" src="2.avif" alt="">
+                </div>
+                <div onclick="chonPhim(3)" class="phim">
+                    <img class="anh-bai" src="3.avif" alt="">
+                </div>
+                <div onclick="chonPhim(4)" class="phim">
+                    <img class="anh-bai" src="4.avif" alt="">
+                </div>
+                <div onclick="chonPhim(5)" class="phim">
+                    <img class="anh-bai" src="5.avif" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
