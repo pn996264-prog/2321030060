@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    background-color: black;
+}
+
+.danh-sach-muc{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.lien-ket-muc{
+    text-decoration: none;
+    color: white;
+}
+
+.muc{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 15%;
+}
+
+.avata{
+    width: 70px;
+    border-radius: 10px;
+}
+
+.banner{
+    width: 60%;
+    heigt: 70vh;
+    margin: 20px auto;
+}
+
+.banner-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.the-loai{
+    width: 90%;
+    height: 20vh;
+    /* background-color: red; */
+    margin: 10px auto;
+}
+
+.danh-sach-kenh{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kenh{
+    width: 19%;
+    height: 20vh;
+    gap: 20px;
+
+    img{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+

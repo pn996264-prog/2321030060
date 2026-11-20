@@ -1,0 +1,135 @@
+.body{
+    margin: 0;
+}
+
+.menu{
+    background-color: #2fa4e7;
+}
+
+.danh-sach-danh-muc{
+    list-style: none;       
+    margin: 0px;
+    display: flex;        
+    padding: 10px;
+    gap: 15px;       
+}
+
+.muc{
+    color: white;
+    padding: 15px
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.goc-phai{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main{
+    display: flex;
+}
+
+.khoi-trai{
+    width: 20%;
+    height: 150vh;
+    border-right: 2px solid #2fa4e7;
+}
+
+p{
+    margin: 0px;
+}
+
+.khoi-goc-trai{
+    color: #2fa4e7;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+
+.khoi-logo{
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        width: 70%;
+        padding: 50px 50px 0 50px;
+    }
+}
+
+.khoi-truong{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10;
+}
+
+.khoi-phai{
+    width: 80%;
+    height: 90vh;
+}
+
+.tkb{
+    width:95%;
+    height: 1200px;
+    margin: 20px auto;
+    border: 1px solid #2fa4e7;
+    border-radius: 10px;
+}
+
+.tkbt{
+    width: 95%;
+    margin: 10px 10px 10px 10px;
+    border-bottom: 1px solid #2fa4e7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h3{
+    margin: 0px;
+}
+
+.hoc-ky{
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: #2fa4e7;
+}    
+
+.tuan{
+    padding: 0 0 10px 10px;
+    border-radius: 30px;
+    border: #2fa4e7;
+}
+
+.thoi-khoa-bieu{
+    width: 95%;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+}
+
+.thu{
+    width: 16.5vh;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+.tiet{
+    color: white;
+    background-color: #2fa4e7;
+}
+
+.mon-hoc{
+    border: 2.5px solid #149ff0;
+    background-color: #CFE2FF;
+}
+
+.gio{
+    color: white;
+    background-color: #2fa4e7;
+}
+

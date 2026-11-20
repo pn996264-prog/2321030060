@@ -1,0 +1,58 @@
+/* body{
+    margin: 0;
+} */
+    
+main{
+    display: flex;
+}
+
+.trai{
+    width: 75%;
+    height: 500px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phai{
+    width: 25%;
+    /* height: 500px;
+    background-color: red; */
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.video{
+    width: 90%;
+    height: 450px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.bai-hat{
+    width: 95%;
+    height: 100px;
+    margin: 10px auto;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+}
+
+.bai-hat:hover{
+    background-color: gray;
+}
+
+img{
+    width: 25%;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+p{
+    width: 75%;
+}
