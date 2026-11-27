@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    include('connect.php');
         session_start();
         if(!isset($_SESSION['dangNhapThanhCong']) && !$_SESSION['dangNhapThanhCong'] == "sucses"){
             header('location: dangnhap.php');
@@ -18,7 +19,7 @@
             <li><a href="index.php?trang=taikhoan">Tài khoản</a></li>
             <li><a href="index.php?trang=phim">Phim</a></li>
             <li><a href="index.php?trang=theloai">Thể loại</a></li>
-           <li><a href="index.php?trang=dangxuat">Đăng xuất</a></li>
+            <li><a href="index.php?trang=dangxuat">Đăng xuất</a></li>
         </ul>
     </nav>
     <?php
