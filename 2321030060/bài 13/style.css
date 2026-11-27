@@ -1,0 +1,25 @@
+ body{
+    margin: 0px;
+}
+ul{
+    margin: 0px;
+}
+nav{
+    background-color: pink;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    a:hover{
+        background-color: grey;
+    }
+}
